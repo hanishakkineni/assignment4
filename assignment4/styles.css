@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #e0f7f7;
     font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ h1 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: #006d6d;
 }
 
 .input-container {
@@ -31,14 +31,14 @@ h1 {
 input[type="text"] {
     width: 75%;
     padding: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid #006d6d;
     border-radius: 5px;
     font-size: 16px;
 }
 
 button {
     width: 20%;
-    background-color: #28a745;
+    background-color: #008080;
     color: white;
     border: none;
     border-radius: 5px;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #006666;
 }
 
 ul {
@@ -58,7 +58,7 @@ ul {
 }
 
 li {
-    background: #f9f9f9;
+    background: #f0ffff;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -74,7 +74,7 @@ li.completed {
 }
 
 .remove-btn {
-    background-color: #dc3545;
+    background-color: #006d6d;
     color: white;
     border: none;
     border-radius: 5px;
@@ -84,5 +84,5 @@ li.completed {
 }
 
 .remove-btn:hover {
-    background-color: #c82333;
+    background-color: #004d4d;
 }
